@@ -67,7 +67,7 @@ public class MegaSena {
 					}
 				}
 				else {
-					System.out.println("O número digitado não atende a todos os critérios (inteiro, de 0 a 100 e não repetido)");
+					System.out.println("O número digitado não atende a todos os requisitos (inteiro, de 0 a 100 e não repetido)");
 				}
 			}catch (InputMismatchException e) {
 				System.out.println("O número inserido deve ser um número inteiro ");
@@ -101,7 +101,6 @@ public class MegaSena {
 			break;
 			default:
 				System.out.println("\nAahhh, não foi dessa vez, quem sabe na próxima?!\nTotal de acertos: " + acertos);
-			break;	
 		}
 	}
 }
