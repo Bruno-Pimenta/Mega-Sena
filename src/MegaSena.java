@@ -3,8 +3,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
 
-
-
 public class MegaSena {
 
 	public static void main(String[] args) {
@@ -53,7 +51,7 @@ public class MegaSena {
 		while(indice<7) {
 			try {
 				boolean repetido = false;
-				
+				System.out.print((indice+1)+": ");
 				int numeroEscolhido = sc.nextInt();
 				if(numeroEscolhido>=0&&numeroEscolhido<=100) {
 					for(int i = 0; i< indice; i++) {
